@@ -184,5 +184,5 @@ def play_hangman():
     print(HANGMAN_STAGES[wrong_guesses])
     print(f"💀 Game over! The word was '{word}'")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     play_hangman()
