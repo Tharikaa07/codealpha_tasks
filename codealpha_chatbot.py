@@ -89,5 +89,5 @@ def chat():
         if any(word in user_input.lower() for word in ["bye", "exit", "quit"]):
             break
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     chat()
