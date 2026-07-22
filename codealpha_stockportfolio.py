@@ -140,5 +140,5 @@ def main():
     if save_choice == "yes":
         save_to_csv(breakdown, total_invested, total_current)
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
